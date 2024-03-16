@@ -40,6 +40,6 @@ curl https://get.acme.sh | sh
 echo "申请 SSL 证书，并下载到服务器目录..."
 ~/.acme.sh/acme.sh --register-account -m $EMAIL
 ~/.acme.sh/acme.sh --issue -d $DOMAIN --standalone --listen-v4
-~/.acme.sh/acme.sh --installcert -d $DOMAIN --key-file /root/private.key --fullchain-file /root/cert.crt
+~/.acme.sh/acme.sh --installcert -d $DOMAIN --key-file /etc/XrayR/private.key --fullchain-file /etc/XrayR/cert.crt
 
 echo "安装成功!"
