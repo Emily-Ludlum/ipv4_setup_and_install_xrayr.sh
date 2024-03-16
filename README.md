@@ -1,0 +1,2 @@
+# ipv4_setup_and_install_xrayr.sh
+用于IPv4服务器，XrayR一键对接V2board
